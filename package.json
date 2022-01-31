@@ -1,0 +1,20 @@
+{
+  "name": "nacars",
+  "version": "1.0.0",
+  "description": "first node work",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js"
+  },
+  "author": "Nwafor Jeremiah",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^5.13.14",
+    "nodemon": "^2.0.15",
+    "slugify": "^1.6.5",
+    "validator": "^13.7.0"
+  }
+}
